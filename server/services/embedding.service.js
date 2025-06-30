@@ -3,7 +3,7 @@ const { Document } = require("langchain/document");
 const { MemoryVectorStore } = require("langchain/vectorstores/memory");
 
 // Initialize Gemini API
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyDy6rpXzvx1xXMAcJF9hbMMwA9KYwLXUzw");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "");
 
 // In-memory document storage (replace with ChromaDB in production)
 const documents = {};
