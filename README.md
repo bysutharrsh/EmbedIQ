@@ -29,7 +29,7 @@ EmbedIQ is a web application that allows users to upload PDF documents and chat 
 
 1. Clone the repository
 ```
-git clone <repository-url>
+git clone https://github.com/bysutharrsh/EmbedIQ.git
 cd EmbedIQ
 ```
 
@@ -48,7 +48,7 @@ NODE_ENV=development
 
 4. Install frontend dependencies
 ```
-cd ../client
+cd ../frontend
 npm install
 ```
 
@@ -62,7 +62,7 @@ npm run dev
 
 2. In a new terminal, start the frontend
 ```
-cd client
+cd frontend
 npm start
 ```
 
